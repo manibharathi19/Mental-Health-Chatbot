@@ -1,0 +1,3 @@
+setup-->env
+pip install -r requirements.txt
+choose a vscode or cmd-->python app.py in the folder--C:\Users\HP\Desktop\mental health>like this

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css-co/app_v2.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+    <meta name="description" content="I am kindly to hear from you. We usually respond within 24 hours. Fill out the form below, or contact us directly at hey@elomia.com">
+    <title>About us</title>
+    <script type="text/javascript" async src="https://s3-us-west-2.amazonaws.com/b2bjsstore/b/1N5W0H02G7O5/reb2b.js.gz"></script>
+    <script src="js/tracker.iife.js" async defer></script>
+    <script async src="js/hotjar-5008164.js"></script>
+</head>
+
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <h3 alt="MindMate">☮️ MindMate Mental Health Chatbot</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-close-icon material-symbols-outlined" id="navbarToggleIcon">menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="navbar-close-icon-wrapper" id="navbarCloseIcon" style="display:none;">
+                    <div class="icon material-symbols-outlined">close</div>
+                </div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/chatbot">MindMate-Chatbot</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About-us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact-Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid full-screen-container form-page">
+        <div class="container form-wrapper">
+            <h1>Safe & secure for all
+                We can use established protocols in high-risk situations and store data .</h1>
+            <div class="mb-4">
+                <p>Mindmate Chatbot: the Effectiveness of Artificial Intelligence in the Fight for Mental Health</p>
+                <a href="mailto:dineshvarmaarul@gmail.com">Email id: Mindmate@gmail.com</a>
+            </div>
+           
+
+    <script type="text/javascript">
+        const form = document.getElementById('form');
+        const successfulSubmissionBlock = document.getElementById('successfulSubmission');
+        
+        form.addEventListener("submit", formSubmit);
+
+        function formSubmit(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+
+            fetch("https://getform.io/f/fa080aa9-396d-486d-90ff-82805ee7b178", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    "Accept": "application/json",
+                },
+            }).then(response => {
+                successfulSubmissionBlock.style.display = 'block';
+                form.style.display = 'none';
+                console.log(response);
+            }).catch(error => {
+                alert(`Unexpected error: "${error.name}". Please contact us directly while we fix this.`);
+                console.log(error);
+            });
+        }
+    </script>
+	 <div class="partnering py-5 mt-5 text-center">
+            <h2>This MindMate chatbot Developed By Dinesh Varma</h2>
+            <div class="d-grid gap-2 d-lg-flex justify-content-center">
+                <a class="btn btn-dark btn-lg" href="">Project</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/navBar.js"></script>
+
+   
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164950254-1"></script>
+    <script>
+        function initApollo() {
+            var n = Math.random().toString(36).substring(7);
+            var o = document.createElement("script");
+            o.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + n;
+            o.async = true;
+            o.defer = true;
+            o.onload = function () {
+                window.trackingFunctions.onLoad({ appId: "663251ab711a1306b7cdda91" });
+            };
+            document.head.appendChild(o);
+        }
+        initApollo();
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-164950254-1');
+    </script>
+</body>
+
+</html>
